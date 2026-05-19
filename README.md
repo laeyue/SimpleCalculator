@@ -26,3 +26,14 @@ A basic calculator implemented in Verilog. This module takes 10-bit switch input
 
 - `basic_calc.v`: The main Verilog module for the calculator logic.
 - `constraint.xdc`: XDC constraints file for board mapping.
+
+## UI Simulator
+
+The `demo/fpga-simulator` folder contains a React + Vite web application that simulates the Basys 3 FPGA board. It provides an interactive UI with toggleable switches and visual LEDs that mimic the exact behavior of the Verilog `Basic_Calculator` module.
+
+### Running the Simulator
+
+1. Navigate to the simulator directory: `cd demo/fpga-simulator`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open the provided localhost URL in your browser.
